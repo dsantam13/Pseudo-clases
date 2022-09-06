@@ -1,0 +1,62 @@
+li {
+    list-style: none;
+}
+
+.list-item {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item:first-child {
+    margin-top: 0;
+}
+
+/* Fórmula an+b donde a=0 y b=5 
+.list-item:nth-child(5) {
+    background-color: orange;
+} */
+
+/* Para selccionar números pares 
+.list-item:nth-child(2n) {
+    background-color: orange;
+}
+.list-item:nth-child(even) {
+    background-color: orange;
+}*/
+
+/* Para selccionar números impares 
+.list-item:nth-child(2n + 1) {
+    background-color: orange;
+}
+.list-item:nth-child(odd) {
+    background-color: orange;
+}*/
+
+/* Para selccionar desde el número 6 hasta el final de la lista 
+.list-item:nth-child(n + 6) {
+    background-color: orange;
+}*/
+
+/* Para selccionar desde el primer número de la lista hasta el número 5 
+.list-item:nth-child(-n + 5) {
+    background-color: orange;
+}*/
+
+/* Para seleccionar desde el 1 cada 3 ciclos hasta finalizar la lista 
+.list-item:nth-child(3n + 1) {
+    background-color: orange;
+}*/
+
+/* El :nth-last-child(3) selecciona el tercer elemento iniciando a contar desde el último elemento de la lista (al revés) 
+.list-item:nth-last-child(3) {
+    background-color: orange;
+} */
+
+/* Selecciona los últimos 3 elementos de la lista */
+.list-item:nth-last-child(-n + 3) {
+    background-color: orange;
+}
